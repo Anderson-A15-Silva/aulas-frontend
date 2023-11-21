@@ -1,7 +1,0 @@
-Google Fonts
-- Com Serifa
-- Sem Serifa
-
-* pode ser usado para estilizar todo a página
-
-Teoria das Cores
