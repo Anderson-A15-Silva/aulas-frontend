@@ -1,0 +1,95 @@
+body {
+    background: rgb(243, 13, 243);
+    width: 360px;
+    height: 750px;
+    margin: 0%;
+}
+
+section {
+    background: black;
+    margin-top: 2%;
+    margin-left:2%;
+    padding: 4%;
+    width: 96%;
+    height: 100%;
+    color: blueviolet;
+    font-size: auto;
+}
+
+button {
+    margin-left: 20px;
+    margin-top: 6px;
+    width: 20px;
+    height: 20px;
+}
+
+img {
+    position: relative;
+    background: white;
+    margin-left: -6px;;
+    /*
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 6px;
+    */
+    width: 16px;
+    height: 16px;
+}
+
+
+li {
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 3.5px;
+    margin-right: 2px;
+    padding: 6px;
+}
+
+.pItem {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0.4px 0.4px 0.4px white;
+}
+
+#pHome:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-decoration: underline;
+}
+
+#pSobre:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-decoration: underline;
+}
+
+#pGit:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-decoration: underline;
+}
+
+input {
+    background: rgb(218, 211, 211);
+    margin-bottom: 5px;
+}
+
+textarea {
+  width: 240px;
+  height: 100px;
+}
+
+input {
+    background: blue;
+    color: black;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+}

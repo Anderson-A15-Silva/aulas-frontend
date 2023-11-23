@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Interativo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <button onclick="exibirMenu()"><img src="icone.png" alt="tres-barras" id="icone"></button>
+  <nav>
+    <ul>
+     <li id="liOne"><a href="index.html" id="pHome" class="pItem" target="_self">Início</a></li>
+     <li id="LiTwo"><a href="sobre.html" id="pSobre" class="pItem" target="_self">Sobre</a></li>
+     <li id="liThree"><a href="https://github.com/Anderson-A15-Silva" id="pGit" class="pItem" target="_blank">GitHub</a></li>
+    </ul>
+   </nav>
+</head>
+<body>
+  <section>
+        <header>
+        <h1>Ficha de Personagem</h1>
+    </header>
+    <main>
+        <h2>Informações Pessoais</h2> <label for="pNome">Nome: </label>
+        <input type="text" id="pNome">
+        <br>
+        <label for="pIdade">Idade: </label>
+        <input type="number" id="pIdade" min="6" max="80">
+        <br>
+        <fieldset> <legend><label name="nSexo">Sexo</label></legend>
+          <label name="nSexo" for="pMasc">Masculino</label>
+        <input type="radio" value="Masculino" id="pMasc" name="nSexo">
+        <label name="nSexo" for="pFem">Feminino</label>
+        <input type="radio" value="Feminino" id="pFem" name="nSexo">
+        </fieldset>
+        <br> 
+        <label for="pIQ">QI: </label>
+        <input type="range" id="pQI" min="90" max="270" readonly>
+
+        <h2>Estatísticas</h2> <label for="forca">Força: </label>
+        <input type="range" id="pFor" min="-1" max="6" name="forca">
+        <br> 
+        <label for="agilidade">Agilidade: </label>
+        <input type="range" id="pAgi" min="-1" max="6" name="agilidade">
+        <br> 
+        <label for="vigor">Vigor: </label>
+        <input type="range" id="pVig" min="-1" max="6" name="vigor">
+        <br> 
+        <label for="intelecto">Intelecto: </label>
+        <input type="range" id="pInt" min="-1" max="6" name="intelecto">
+        <br> 
+        <label for="presenca">Presença</label>
+        <input type="range" id="pPre" min="-1" max="6" name="presenca">
+        <br>
+        <br> 
+        <label for="pHistoria"> História: </label>
+        <br> 
+        <textarea id="pHistoria">
+        </textarea>
+        <br> 
+        <label for="pPersonalidade"> Personalidade: </label>
+        <br> 
+        <textarea id="pPersonalidade">
+        </textarea>
+        <input type="button" value="Encerrar" onclick="exibirValores()">
+    </main>
+    <footer>
+        Made by © Anderson_AS
+    </footer>
+  </section>
+  <script src="index.js"></script>
+</body>
+</html>

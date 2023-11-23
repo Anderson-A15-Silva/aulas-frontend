@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+#icone {
+    float: left;
+    margin-left: 10px;
+    width: 8px;
+    height: 8px;
+}
+
+body {
+    background: rgb(243, 13, 243);
+    width: 360px;
+    height: 750px;
+    margin: 0%;
+}
+
+section {
+    background: black;
+    margin-left:2%;
+    padding: 4%;
+    width: 98%;
+    height: 100%;
+    color: blueviolet;
+    font-size: auto;
+}
+
+li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 2px;
+    display: inline-block;
+    padding: 6px;
+}
+
+.pItem {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0.4px 0.4px 0.4px white;
+}
+
+#sHome:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-decoration: underline;
+}
+
+#sSobre:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-decoration: underline;
+}
+
+#sGit:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-decoration: underline;
+}
+
+input {
+    background: rgb(218, 211, 211);
+    margin-bottom: 5px;
+}
+
+textarea {
+  width: 240px;
+  height: 100px;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+}

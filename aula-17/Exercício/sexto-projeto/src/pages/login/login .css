@@ -1,0 +1,17 @@
+body {
+    background-color: #444;
+}
+
+form {
+    padding: 15px;
+    color: #fff;
+    background-image: linear-gradient(to right, #fff, #000, #000);
+    border: 2px solid #fff;
+}
+
+button {
+    font-size: 6px;
+    width: 80px;
+    height: 36px;
+    margin-top: 10px;
+}

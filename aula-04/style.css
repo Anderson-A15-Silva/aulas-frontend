@@ -1,0 +1,49 @@
+
+/* Formatação do Fundo da Página */
+body {
+    background:#108787ff;
+    color:white;
+    font-size:10px;
+    margin:3px;
+}
+
+/* Formatação da Posição das Sections e Outros Elementos */
+h1 {
+    margin:3px;
+}
+
+/* Principal Formatação da Sections */
+.section {
+    margin:4px 1px 4px 1px;
+    font-size: 1rem;
+    background:white;
+    color:black;
+    position: relative;
+    font-family: 'Arsenal', sans-serif;
+    box-shadow: 2px 2px 6px black;
+    border-radius:5px;
+    border-width:15px;
+    border-color:black;
+    padding-left:4px;
+    padding-bottom:10px;
+    box-sizing:border-box;
+    width:35%;
+}
+
+/* Formatação da Borda da Imagem */
+figure#foto {
+    border:8px solid black;
+}
+
+/* Formatação da Legenda da Imagem */
+figure#legenda {
+    top:0px;
+    margin-bottom:3px;
+}
+
+/* Formatação da Tabela */
+#table {
+    font-size:0.9rem;
+    position:relative;
+    margin: 1rem 1rem;
+}

@@ -1,0 +1,10 @@
+li {
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    left: 10px;
+}
+
+button {
+    padding: 15px;
+}

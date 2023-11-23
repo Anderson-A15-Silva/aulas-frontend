@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Estilização da Margem da Página */
+* {
+    margin: 10px;
+    padding-bottom: 0px;
+};
+
+/* Estilização dos Cards */
+ body {
+    border: 1px solid #fff;
+    border-radius: 25px;
+};
+
+/* Estilização do Conteúdo */
+.cardBox {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px #555555;
+};
+
+/* Estilização da Imagem de Perfil */
+.icon {
+    height: 40px;
+    width: 40px;
+};

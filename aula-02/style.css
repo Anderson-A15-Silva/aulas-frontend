@@ -1,0 +1,96 @@
+
+/* Formatação do Fundo da Página */
+body {
+    background:#108787ff;
+    color:white;
+    font-size:10px;
+    margin:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Formatação da Posição das Sections e Outros Elementos */
+h1 {
+    margin:3px;
+}
+
+/* Principal Formatação da Sections */
+.section {
+    margin:4px 1px 4px 1px;
+    font-size: 16px;
+    background:white;
+    color:black;
+    position: relative;
+    font-family: 'Arsenal', sans-serif;
+    box-shadow: 2px 2px 6px black;
+    border-radius:5px;
+    border-width:15px;
+    border-color:black;
+    padding-left:4px;
+    padding-bottom:10px;
+    box-sizing:border-box;
+    width:560px;
+}
+
+/* Formatação da Borda da Imagem */
+figure#foto {
+    border:8px solid black;
+}
+
+/* Formatação da Legenda da Imagem */
+figure#legenda {
+    top:0px;
+    margin-bottom:3px;
+}
+
+/* Formatação da Tabela */
+#table {
+    font-size:15px;
+    position: relative;
+    margin: 20px 20px;
+}
+
+.contato {
+    justify-content: flex-end;
+}
+
+#animacao {
+    animation-name: footer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+
+@keyframes footer {
+    25% {
+        position:absolute;
+        color: black;
+        left:25%;
+    }
+    
+    50% {
+        position:absolute;
+        color: yellow;
+        left:75%;
+    }
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 200px 200px;
+}
+
+form {
+    display: block;
+    position: relative;
+}
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: rgb(0, 229, 255);
+    }
+}

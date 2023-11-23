@@ -1,0 +1,17 @@
+h1 {
+    background-color: yellow;
+    text-decoration: solid;
+    color: black;
+    padding: 4px;
+};
+
+p {
+    color: black;
+    text-shadow: 1px 1px 3px gray;
+};
+
+.pcImage {
+    width: 180px;
+    height: 80px;
+    margin: 4px 0px 4px 4px;
+};

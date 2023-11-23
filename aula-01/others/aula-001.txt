@@ -1,0 +1,26 @@
+-- Aula 1 -- 
+HTML
+
+Tags [head]:
+<meta>
+content
+keywords
+author
+
+Tags [body]:
+<article>
+<hr>
+<alt>
+<ol type="a">
+<input type="number" max="10" min="2">
+<datetime>
+<label for="email">
+<form action="/" method="post">
+<fieldset>
+<aside>
+<main>
+
+Outros:
+assets
+SEO
+!enter (VS)
