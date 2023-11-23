@@ -1,0 +1,145 @@
+/* Formatação do Fundo da Página */
+body {
+    background: #00e5ff;
+    color:white;
+    font-size:10px;
+    margin:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Formatação da Posição das Sections e Outros Elementos */
+h1 {
+    margin:3px;
+}
+
+/* Principal Formatação da Sections */
+.section {
+    margin: 4px 1px 4px 1px;
+    font-size: 16px;
+    background: white;
+    color: black;
+    font-family: 'Arsenal', sans-serif;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 15px;
+    border-width: 15px;
+    border-color: black;
+    padding-left: 4px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    width: 560px;
+}
+
+/* Formatação da Borda da Imagem */
+figure#foto {
+    border:8px solid black;
+}
+
+/* Formatação da Legenda da Imagem */
+figure#legenda {
+    top:0px;
+    margin-bottom:3px;
+}
+
+/* Formatação da Tabela */
+#table {
+    font-size:15px;
+    position: relative;
+    margin: 20px 20px;
+}
+
+/* Formatação do Conteúdo do Formulário */
+.contato {
+    justify-content: flex-end;
+}
+
+/* Formatação da Animação */
+#animacao {
+    animation-name: footer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+@keyframes footer {
+    25% {
+        position:absolute;
+        color: black;
+        left:25%;
+    }
+    
+    50% {
+        position:absolute;
+        color: yellow;
+        left:75%;
+    }
+}
+
+/* Rascunho de Formatação de Elementos usando o Grid
+.container {
+    display:grid;
+    grid-template-columns: 200px 200px;
+}
+form {
+    display: block;
+    position: relative;
+}
+*/
+
+/* Formatação do Rodapé */
+footer {
+    text-align: center;
+}
+
+/* Formatação dos Botões */
+#div {
+    display: block;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    position: fixed;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 5px;
+    top: 20px;
+    right: 0px;
+    opacity: 40%;
+    transition: 1.2s opacity;
+}
+
+/* Formatação do Botão de Modo Claro */
+#claro {
+    display: none;
+}
+
+/* Formatação de Fundo dos Botões */
+#div:hover {
+    opacity: 100%;
+    background: blue;
+    padding: 6px;
+}
+
+/* Formatação de Botão Dark Mode*/
+.dk {
+    padding-left: 55px;
+    background: black;
+    color: white;
+}
+
+
+/* Formatação do Ícone (Botões) */
+.icone {
+    position: relative;
+    right: 0px;
+    width: 12px;
+    height: 12px;
+}
+
+/* Responsividade */
+@media screen and (min-width: 600px) {
+    body {
+        background:#108787ff;
+    }
+}
