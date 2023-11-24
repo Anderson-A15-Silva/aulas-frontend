@@ -27,21 +27,22 @@ var presenca = pPre;
 
 
 function exibirValores() {
-    console.log("Nome :", nome)
-    console.log("Nome :", idade)
-    console.log("Nome :", sexo)
-    console.log("Nome :", iq)
-    console.log("Nome :", forca)
-    console.log("Nome :", agilidade)
-    console.log("Nome :", intelecto)
-    console.log("Nome :", presenca)
+    console.log("Nome :", nome);
+    console.log("Nome :", idade);
+    console.log("Nome :", sexo);
+    console.log("Nome :", iq);
+    console.log("Nome :", forca);
+    console.log("Nome :", agilidade);
+    console.log("Nome :", intelecto);
+    console.log("Nome :", presenca);
 }
 
 const exibirMenu = () => {
-    let buttonIcon = document.head.getElementById('button-icone')
-    let menu = document.head.querySelector('li');
+    let buttonIcon = window.document.getElementById("button-icone");
+    let menu = window.document.querySelector("nav");
 
-    button.addEventListener('click', () => {
+    buttonIcon.addEventListener('click', () => {
         menu.style.display = 'inline-block';
+        menu.style.listStyle = 'none';
     })
 }

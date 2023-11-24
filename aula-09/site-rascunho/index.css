@@ -16,11 +16,17 @@ section {
     font-size: auto;
 }
 
-button {
+div {
     margin-left: 20px;
     margin-top: 6px;
     width: 20px;
     height: 20px;
+}
+
+.button-icone {
+    width: 100px;
+    height: 100px;
+    background-image: url('./icone.png');
 }
 
 img {
@@ -36,8 +42,7 @@ img {
     height: 16px;
 }
 
-
-li {
+nav {
     display: none;
     margin-top: 0px;
     margin-bottom: 0px;
