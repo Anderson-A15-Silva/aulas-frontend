@@ -1,5 +1,5 @@
 .header {
-  background-image: linear-gradient(to right, #00ff00, #00aa00);
+  background: linear-gradient(to right, #00ff00, #00aa00);
   height: 150px;
   text-align: center;
 }
@@ -21,5 +21,5 @@
   position: fixed;
   right: 10px;
   top: 10px;
-  background-color: darkblue;
+  background-color: rgb(196, 186, 0);
 }

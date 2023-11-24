@@ -39,7 +39,7 @@ const Login = () => {
         Crie um p recebendo o valor de message.
       */
     <div className="login-container">
-      <img src="/images/logo.png" style={{ width: 50 }} />
+      <img src="public/images/logo.png" style={{ width: 50 }} />
       <h2 className="login-title">Título do Login</h2>
       <input type="text" placeholder="Digite o nome do usuário..." value={username} onChange={(e) => setUsername(e.target.value)} />
       <input type="password" placeholder="Digite a senha do usuário..." value={password} onChange={(e) => setPassword(e.target.value)} />

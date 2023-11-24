@@ -1,7 +1,7 @@
 /* Estilos para o corpo da página */
 body {
   font-family: Arial, sans-serif;
-  background-color: #121212;
+  background-color: #fff;
   margin: 0;
   padding: 0;
   display: flex;
@@ -13,7 +13,7 @@ body {
 /* Container do formulário de login */
 .login-container {
   background: #1f1f1f;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
   border-radius: 8px;
   padding: 20px;
   max-width: 400px;
@@ -36,7 +36,7 @@ input[type="password"] {
   border: 1px solid #333;
   border-radius: 4px;
   font-size: 16px;
-  background-color: #333;
+  background-color: #bbf;
   color: #e5e5e5;
   transition: border-color 0.3s, background-color 0.3s;
 }
